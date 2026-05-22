@@ -4,21 +4,21 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const plantas = {
       "GU01": "VILLA NUEVA",
-      "GU02": "SALCAJA",
-      "GU03": "HUEHUETENANGO",
+      "GU02": "ATLANTICO",
+      "GU03": "COBAN",
       "GU04": "ZACAPA",
-      "GU05": "TIKAL",
-      "GU06": "COBAN",
-      "GU07": "QUICHE",
-      "GU08": "TOTONICAPAN",
-      "GU09": "ESCUINTLA",
+      "GU05": "CHIMALTENANGO",
+      "GU06": "ESCUINTLA ",
+      "GU07": "RETALHULEU",
+      "GU08": "SALCAJA",
+      "GU09": "TECUNUMAN",
       "GU10": "JUTIAPA"
     };
   
     const columnas = [
       "FOLIO", "FECHA", "SERIE", "FACTURA",
-      "VILLA NUEVA", "SALCAJA", "HUEHUETENANGO", "ZACAPA", "TIKAL",
-      "COBAN", "QUICHE", "TOTONICAPAN", "ESCUINTLA", "JUTIAPA",
+      "VILLA NUEVA", "SALCAJA", "RETALHULEU", "ESCUINTLA", "CHIMALTENANGO",
+      "ATLANTICO", "ZACAPA", "TECUNUMAN", "COBAN",
       "VALOR GTQ", "VALOR EN DLL"
     ];
   
@@ -74,14 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
               "FACTURA": numero,
               "VILLA NUEVA": "",
               "SALCAJA": "",
-              "HUEHUETENANGO": "",
-              "ZACAPA": "",
-              "TIKAL": "",
-              "COBAN": "",
-              "QUICHE": "",
-              "TOTONICAPAN": "",
+              "RETALHULEU": "",
               "ESCUINTLA": "",
-              "JUTIAPA": "",
+              "CHIMALTENANGO": "",
+              "ATLANTICO": "",
+              "ZACAPA": "",
+              "TECUNUMAN": "",
+              "COBAN": "",
               "VALOR GTQ": valorQ,
               "VALOR EN DLL": valorUS
             };
