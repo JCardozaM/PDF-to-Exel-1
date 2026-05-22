@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "FOLIO", "FECHA", "SERIE", "FACTURA",
       "VILLA NUEVA", "SALCAJA", "HUEHUETENANGO", "ZACAPA", "TIKAL",
       "COBAN", "QUICHE", "TOTONICAPAN", "ESCUINTLA", "JUTIAPA",
-      "VALOR GTQ", "VALOR EN DLL", "GALONES TOTALES"
+      "VALOR GTQ", "VALOR EN DLL"
     ];
   
     let registros = [];
@@ -83,8 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
               "ESCUINTLA": "",
               "JUTIAPA": "",
               "VALOR GTQ": valorQ,
-              "VALOR EN DLL": valorUS,
-              "GALONES TOTALES": ""
+              "VALOR EN DLL": valorUS
             };
   
             // Llenar la columna de planta con los galones
