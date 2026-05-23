@@ -11,14 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "GU06": "ESCUINTLA ",
       "GU07": "RETALHULEU",
       "GU08": "SALCAJA",
-      "GU09": "TECUNUMAN",
+      "GU09": "TECUN UMAN",
       "GU10": "JUTIAPA"
     };
   
     const columnas = [
       "FOLIO", "FECHA", "SERIE", "FACTURA",
       "VILLA NUEVA", "SALCAJA", "RETALHULEU", "ESCUINTLA", "CHIMALTENANGO",
-      "ATLANTICO", "ZACAPA", "TECUNUMAN", "COBAN",
+      "ATLANTICO", "ZACAPA", "TECUN UMAN", "COBAN",
       "VALOR GTQ", "VALOR EN DLL"
     ];
   
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
               "CHIMALTENANGO": "",
               "ATLANTICO": "",
               "ZACAPA": "",
-              "TECUNUMAN": "",
+              "TECUN UMAN": "",
               "COBAN": "",
               "VALOR GTQ": valorQ,
               "VALOR EN DLL": valorUS
