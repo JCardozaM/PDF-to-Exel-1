@@ -59,11 +59,12 @@ document.addEventListener("DOMContentLoaded", () => {
           const serie = (text.match(/SERIE\s+([A-Z0-9]+)/) || [])[1] || "";
           const numero = (text.match(/NUMERO\s+(\d+)/) || [])[1] || "";
           let galones = "";
-          // Buscar el número que aparece después de "LTS" y antes del precio en dólares
-          const match = text.match(/LTS[\s\d,\.]+?\s([\d,]+)\s+1\.\d{4}/i);
+          // Buscar el número que aparece después de "LTS" y antes del precio en dólares (cualquier formato)
+          const match = text.match(/LTS[\s\d,\.]+?\s([\d,]+)\s+1\.\d+/i);
           if (match) {
             galones = match[1].trim();
           }
+
           const valorUS = (text.match(/\$([\d,]+\.\d{2})/) || [])[1] || "";
           const valorQ = (text.match(/Q([\d,]+\.\d{2})/) || [])[1] || "";
           let plantaCodigo = "";
