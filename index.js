@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // Extraer datos clave
           const folio = (text.match(/FOLIO\s+(\d+)/) || [])[1] || "";
-          const fecha = (text.match(/FECHA:\s+(\d{2}\/\d{2}\/\d{4})/) || [])[1] || "";
+          const fecha = (text.match(/FECHA:\s+(\d{1,2}\/\d{1,2}\/\d{4})/) || [])[1] || "";
           const serie = (text.match(/SERIE\s+([A-Z0-9]+)/) || [])[1] || "";
           const numero = (text.match(/NUMERO\s+(\d+)/) || [])[1] || "";
           let galones = "";
