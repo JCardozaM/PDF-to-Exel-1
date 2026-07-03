@@ -157,5 +157,3 @@ document.addEventListener("DOMContentLoaded", () => {
     saveAs(blob, "facturas_diarias.xlsx");
   });
 });
-
-
